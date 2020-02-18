@@ -216,6 +216,7 @@ html {
 .h2 {
 	font-size: 3rem;
 	margin-bottom: 2.5rem;
+
 }
 
 .icon {
@@ -233,6 +234,7 @@ html {
 
 .second{
 	background-color: #e4fdf9;
+	padding-top: 16px;
 }
 
 .second-item {
@@ -259,6 +261,10 @@ html {
 @media all and (max-width: 1150px) {
 	.nav-link {
 		display: none;
+	}
+	.second-item {
+		width: 90%;
+		margin:auto;
 	}
 
 	.header-btn + .header-btn {
@@ -287,4 +293,11 @@ html {
 	.first {
 		padding: 0;
 	}
+
+	.first-box, .second-box {
+		display: block;
+	}
+
+	.first-item {
+		margin: 36px auto;
 }
